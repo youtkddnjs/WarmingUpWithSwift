@@ -25,7 +25,7 @@ struct TabView: View {
         .sheet(isPresented: $showModal, content: {
 //            Text("This is Modal Page")
             // 두번째 페이지의 isPresented 와 바인당하기위해 showModal 전달
-            SecondPage(isPresented: $showModal)
+            SecondPage(myisPresented: $showModal)
         })
 
         

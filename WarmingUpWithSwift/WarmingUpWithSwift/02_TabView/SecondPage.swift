@@ -10,14 +10,14 @@ import SwiftUI
 struct SecondPage: View {
     
     // Main page 의 showModal과 binding
-    @Binding var isPresented: Bool
+    @Binding var myisPresented: Bool
     
     var body: some View {
         
         Text("Second Page")
         
         Button(action: {
-            isPresented = false
+            myisPresented = false
         }, label: {
             Text("Close")
         })
@@ -26,5 +26,5 @@ struct SecondPage: View {
 
 #Preview {
     // .constant는 무엇인가?
-    SecondPage(isPresented: .constant(true))
+    SecondPage(myisPresented: .constant(true))
 }
