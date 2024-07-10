@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TabView: View {
+struct ModalView: View {
     
     @State var showModal: Bool = false
     
@@ -30,8 +30,8 @@ struct TabView: View {
 
         
     } // body
-}// TabView
+}// ModalView
 
 #Preview {
-    TabView()
+    ModalView()
 }
