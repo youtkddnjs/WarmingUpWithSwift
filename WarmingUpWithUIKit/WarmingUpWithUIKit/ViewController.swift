@@ -9,11 +9,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var mainTextView: UITextView!
+    
+    @IBAction func myButton(_ sender: Any) {
+        print("Click !!!")
     }
 
 
-}
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+//        view.backgroundColor = .blue
+        // Do any additional setup after loading the view.
+        
+        
+        
+        
+    } //override func viewDidLoad()
 
+
+} //class ViewController: UIViewController
+
+ 
