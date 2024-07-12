@@ -43,6 +43,10 @@ class MyTableViewController: UIViewController {
 extension MyTableViewController: UITableViewDelegate,
                                  UITableViewDataSource {
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cellData.count
     }
