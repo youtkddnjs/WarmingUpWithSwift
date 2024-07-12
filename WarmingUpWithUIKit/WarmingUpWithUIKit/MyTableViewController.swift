@@ -7,9 +7,7 @@
 
 import UIKit
 
-class MyTableViewController: UIViewController,
-                             UITableViewDelegate,
-                             UITableViewDataSource {
+class MyTableViewController: UIViewController {
     
 
     @IBOutlet weak var myTableView: UITableView!
@@ -38,6 +36,13 @@ class MyTableViewController: UIViewController,
         
     } //override func viewDidLoad()
     
+
+
+} //class MyTableViewController
+
+extension MyTableViewController: UITableViewDelegate,
+                                 UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cellData.count
     }
@@ -45,15 +50,11 @@ class MyTableViewController: UIViewController,
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // 스토리보드에서 indentifier를 설정 할 것.
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell" , for: indexPath) 
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell" , for: indexPath)
         
         cell.textLabel?.text = cellData[indexPath.row]
         
         return cell
     }
-
-} //class MyTableViewController
-
-extension MyTableViewController{
     
 }
