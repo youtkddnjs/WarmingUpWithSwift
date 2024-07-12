@@ -15,6 +15,7 @@
 		1B5124882C3F66D700D449BD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1B5124872C3F66D700D449BD /* Base */; };
 		1B5124902C3F93D900D449BD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51248F2C3F93D900D449BD /* SecondViewController.swift */; };
 		1B5124922C40D15800D449BD /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5124912C40D15800D449BD /* MyTableViewController.swift */; };
+		1B5124942C4102B300D449BD /* MyToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5124932C4102B300D449BD /* MyToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1B5124892C3F66D700D449BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B51248F2C3F93D900D449BD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		1B5124912C40D15800D449BD /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		1B5124932C4102B300D449BD /* MyToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				1B51247F2C3F66D600D449BD /* ViewController.swift */,
 				1B51248F2C3F93D900D449BD /* SecondViewController.swift */,
 				1B5124812C3F66D600D449BD /* Main.storyboard */,
+				1B5124932C4102B300D449BD /* MyToDoViewController.swift */,
 				1B5124912C40D15800D449BD /* MyTableViewController.swift */,
 				1B5124842C3F66D700D449BD /* Assets.xcassets */,
 				1B5124862C3F66D700D449BD /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				1B5124802C3F66D600D449BD /* ViewController.swift in Sources */,
 				1B51247C2C3F66D600D449BD /* AppDelegate.swift in Sources */,
 				1B5124922C40D15800D449BD /* MyTableViewController.swift in Sources */,
+				1B5124942C4102B300D449BD /* MyToDoViewController.swift in Sources */,
 				1B51247E2C3F66D600D449BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

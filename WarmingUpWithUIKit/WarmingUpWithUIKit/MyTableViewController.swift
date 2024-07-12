@@ -30,9 +30,9 @@ class MyTableViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .green
         
-        myTableView.backgroundColor = . yellow
-        myTableView.delegate = self
-        myTableView.dataSource = self
+        myTableView?.backgroundColor = .yellow
+        myTableView?.delegate = self
+        myTableView?.dataSource = self
         
     } //override func viewDidLoad()
     
