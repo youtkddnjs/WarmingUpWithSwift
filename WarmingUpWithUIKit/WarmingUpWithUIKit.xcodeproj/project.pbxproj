@@ -18,6 +18,9 @@
 		1B5124942C4102B300D449BD /* MyToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5124932C4102B300D449BD /* MyToDoViewController.swift */; };
 		1B5124962C4411C100D449BD /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5124952C4411C100D449BD /* ConnectViewController.swift */; };
 		1B5124982C44122300D449BD /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5124972C44122300D449BD /* NextViewController.swift */; };
+		1B51249A2C454EEA00D449BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5124992C454EEA00D449BD /* ProfileViewController.swift */; };
+		1B51249C2C4554A100D449BD /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51249B2C4554A100D449BD /* TodoListViewController.swift */; };
+		1B51249E2C455EE600D449BD /* ProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51249D2C455EE600D449BD /* ProfileDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		1B5124932C4102B300D449BD /* MyToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoViewController.swift; sourceTree = "<group>"; };
 		1B5124952C4411C100D449BD /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		1B5124972C44122300D449BD /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		1B5124992C454EEA00D449BD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1B51249B2C4554A100D449BD /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		1B51249D2C455EE600D449BD /* ProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 		1B51246F2C3F66D600D449BD = {
 			isa = PBXGroup;
 			children = (
+				1B51249D2C455EE600D449BD /* ProfileDetailViewController.swift */,
 				1B51247A2C3F66D600D449BD /* WarmingUpWithUIKit */,
 				1B5124792C3F66D600D449BD /* Products */,
 			);
@@ -71,6 +78,8 @@
 				1B51247F2C3F66D600D449BD /* ViewController.swift */,
 				1B51248F2C3F93D900D449BD /* SecondViewController.swift */,
 				1B5124812C3F66D600D449BD /* Main.storyboard */,
+				1B51249B2C4554A100D449BD /* TodoListViewController.swift */,
+				1B5124992C454EEA00D449BD /* ProfileViewController.swift */,
 				1B5124972C44122300D449BD /* NextViewController.swift */,
 				1B5124932C4102B300D449BD /* MyToDoViewController.swift */,
 				1B5124912C40D15800D449BD /* MyTableViewController.swift */,
@@ -156,9 +165,12 @@
 				1B5124962C4411C100D449BD /* ConnectViewController.swift in Sources */,
 				1B5124982C44122300D449BD /* NextViewController.swift in Sources */,
 				1B5124902C3F93D900D449BD /* SecondViewController.swift in Sources */,
+				1B51249E2C455EE600D449BD /* ProfileDetailViewController.swift in Sources */,
 				1B5124802C3F66D600D449BD /* ViewController.swift in Sources */,
+				1B51249C2C4554A100D449BD /* TodoListViewController.swift in Sources */,
 				1B51247C2C3F66D600D449BD /* AppDelegate.swift in Sources */,
 				1B5124922C40D15800D449BD /* MyTableViewController.swift in Sources */,
+				1B51249A2C454EEA00D449BD /* ProfileViewController.swift in Sources */,
 				1B5124942C4102B300D449BD /* MyToDoViewController.swift in Sources */,
 				1B51247E2C3F66D600D449BD /* SceneDelegate.swift in Sources */,
 			);
